@@ -105,7 +105,7 @@ You'll create three credentials in n8n (**left sidebar → Credentials → Add c
 2. In n8n, add a credential of type **OpenAI** (or a generic **Header Auth** credential with header name `Authorization` and value `Bearer YOUR_KEY`, matching how the HTTP Request node is configured).
 3. Before your first run, confirm three things in your OpenAI account, because any one of them can block `gpt-image-1` (see Troubleshooting — all three happened during this build):
    - Your **organization is verified** (Settings → Organization → complete the ID check).
-   - Your project's **model allowlist** includes `gpt-image-1` (or allows all models).
+   - Your project's **model allowlist** includes `gpt-image-1` (or allows all models). You may want to change what your model is using. This initial setup is using gpt-image-1, which is already deprecated. It's here because it was least expensive for the demo.
    - Your API key was **created after** verification. Keys minted before verification may never gain access — mint a fresh one.
 
 ### 2b. Google OAuth (Sheets and Drive)
