@@ -76,6 +76,8 @@ https://docs.google.com/spreadsheets/d/1AbC2dEfG3hIjK4lMnO5pQrS6tUvW7xYz/edit#gi
 
 The Sheet ID is the long string between `/d/` and `/edit`. Copy it somewhere — you'll paste it into **two** n8n nodes in Part 3.
 
+![Manifest Sheet Example of Sheet ID](images/BatchAIimageGen-ManifestSheet.png)
+
 ### 1c. Create the Drive folders
 
 1. In [Google Drive](https://drive.google.com), create a parent folder (e.g. `Blog Images`).
