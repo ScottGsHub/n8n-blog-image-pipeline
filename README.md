@@ -1,3 +1,5 @@
+![n8n workflow image](images/BatchAIimageGen-n8nWorkflow.png)
+
 # n8n Blog Image Pipeline
 
 Batch-generate blog hero images with n8n + the OpenAI image API, driven by a Google Sheet manifest, with a mandatory human review gate before anything ships.
