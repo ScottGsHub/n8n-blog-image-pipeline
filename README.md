@@ -225,4 +225,4 @@ Two sample images are in `samples/` — one from each lane. All outputs are AI-g
 
 ## License
 
-MIT — see `LICENSE`.
+see `LICENSE`.
