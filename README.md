@@ -200,7 +200,7 @@ The `lane` column selects one of two style blocks defined in the single "Build P
 ## Cost & timing
 
 - ~20–40 seconds per image at 1536×1024, high quality
-- Cost depends entirely on your GPT and what plan or pay-per-use rate you're usign.
+- Cost depends entirely on your GPT and what plan or pay-per-use rate you're using.
 
 ## Troubleshooting (every one of these was actually hit)
 
