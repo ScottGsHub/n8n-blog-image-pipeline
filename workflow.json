@@ -8,8 +8,8 @@
       "type": "n8n-nodes-base.manualTrigger",
       "typeVersion": 1,
       "position": [
-        -976,
-        -352
+        -832,
+        -416
       ]
     },
     {
@@ -32,8 +32,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.5,
       "position": [
-        -752,
-        -352
+        -672,
+        -416
       ],
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -71,8 +71,8 @@
       "type": "n8n-nodes-base.filter",
       "typeVersion": 2.2,
       "position": [
-        -544,
-        -352
+        -528,
+        -416
       ]
     },
     {
@@ -84,8 +84,8 @@
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
       "position": [
-        -320,
-        -368
+        -352,
+        -272
       ]
     },
     {
@@ -97,8 +97,8 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        -96,
-        -368
+        -224,
+        -256
       ]
     },
     {
@@ -119,8 +119,8 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        128,
-        -368
+        -80,
+        -256
       ],
       "retryOnFail": true,
       "maxTries": 3,
@@ -146,8 +146,8 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        352,
-        -368
+        80,
+        -256
       ]
     },
     {
@@ -170,8 +170,8 @@
       "type": "n8n-nodes-base.googleDrive",
       "typeVersion": 3,
       "position": [
-        576,
-        -368
+        240,
+        -256
       ],
       "credentials": {
         "googleDriveOAuth2Api": {
@@ -301,8 +301,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.5,
       "position": [
-        784,
-        -368
+        400,
+        -256
       ],
       "credentials": {
         "googleSheetsOAuth2Api": {
@@ -320,8 +320,8 @@
       "type": "n8n-nodes-base.wait",
       "typeVersion": 1.1,
       "position": [
-        1008,
-        -368
+        560,
+        -256
       ],
       "webhookId": "ac343f28-df8a-4ffc-8cdf-bee671b45be8"
     },
@@ -334,11 +334,25 @@
       "type": "n8n-nodes-base.stickyNote",
       "position": [
         -1024,
-        -720
+        -832
       ],
       "typeVersion": 1,
       "id": "1b6fc2e8-b44a-44a3-8c97-31e8d5dcbe87",
       "name": "Sticky Note"
+    },
+    {
+      "parameters": {
+        "content": "## Parameters for Write Back to Manifest fields\n** slug\n{{ $('Build Prompt').item.json.slug }}\n** drive link\n{{ $json.webViewLink }}\n",
+        "height": 304
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        352,
+        -32
+      ],
+      "typeVersion": 1,
+      "id": "d534a775-4ca7-4393-8f4e-f3e38df09543",
+      "name": "Sticky Note1"
     }
   ],
   "pinData": {},
@@ -459,7 +473,7 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "52243c7a-6bfb-4f28-bdc5-16d2b69476a7",
+  "versionId": "f2c6477d-69e5-43b6-ad5e-af9b37229457",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "dad38bf53165f930f2a7c49a7f4111ceee6e2097a34590067ccf2fc839836e49"
